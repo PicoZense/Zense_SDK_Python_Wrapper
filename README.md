@@ -13,7 +13,7 @@ The goal of this project is to help developers use Zense TOF camera via python m
 
 ### Directory
 
-- **linux_lib / windows_lib**: The dynamic library folder, user must put the library files to this folder. Like the two so files in ubuntu18.04_SDK
+- **linux_lib / windows_lib**: The dynamic library folder
 
   ```
   /libImgPreProcess.so
@@ -26,7 +26,7 @@ The goal of this project is to help developers use Zense TOF camera via python m
 
 ### How to use
 
-1. make sure put the right dynamic library files to the correct folder
+1. make sure copy the right dynamic library files to project root directory(windows do not need copy to the root directory, the code will auto add environment)
 2. Run zense_cam_demo.py
 
 User can refrence the demo code to create your project.
